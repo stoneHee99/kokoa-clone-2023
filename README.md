@@ -1,3 +1,3 @@
-# Kokoa Clone 2023 - nomadcoer
+# Kokoa Clone 2023 - nomadcoder
 
 This is clone coding project with nomad coders course!

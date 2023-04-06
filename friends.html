@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kokoa Clone</title>
   </head>
-  <body class="background--leaves">
+  <body>
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__column--device">Nintendo</span>
@@ -23,34 +23,24 @@
       </div>
     </div>
 
-    <header class="welcome-header">
-      <img class="welcome-header__title" src="img/animal-crossing.png" />
-      <p class="welcome-header__text">
-        If you have a Nintendo Account, login in with your email or phone
-        number.
-      </p>
-    </header>
-
-    <form action="friends.html" method="get" id="login-form">
-      <label for="login-ID">ID</label>
-      <input
-        name="username"
-        id="login-ID"
-        type="text"
-        placeholder="Email or phone number"
-        required
-      />
-      <label for="login-PW">PW</label>
-      <input
-        name="password"
-        id="login-PW"
-        type="password"
-        placeholder="Password"
-        required
-      />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Nintendo Account or Password</a>
-    </form>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav_btn">
+          <a class="nav_link" href="#"><i class="fas fa-paw fa-2x"></i></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="#"><i class="far fa-envelope fa-2x"></i></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="#"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

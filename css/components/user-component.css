@@ -1,7 +1,19 @@
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component--villager {
+  margin-bottom: 20px;
+}
+
 .user-component,
 .user-compnent__column:first-child {
   display: flex;
   align-items: center;
+}
+
+.user-compnent__column:last-child {
+  color: #8b8065;
 }
 
 .user-component__avatar {
@@ -11,14 +23,30 @@
   margin-right: 20px;
 }
 
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
 .user-component__title {
   font-weight: 600;
   font-size: 20px;
   color: #756b5a;
 }
 
+.user-component__title--not-bold {
+  font-weight: 500;
+}
+
 .user-component__subtitle {
-  margin-top: 8px;
-  font-size: 17px;
+  margin-top: 6px;
+  font-size: 14px;
   color: #8b8065;
 }

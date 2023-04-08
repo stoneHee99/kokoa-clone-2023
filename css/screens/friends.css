@@ -4,8 +4,23 @@
   padding: 10px 0px;
   font-weight: 500;
   color: #756b5a;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 #friends-display-link i {
   color: #dfd9c9;
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid #dfd9c9;
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #8b8065;
 }

@@ -8,10 +8,24 @@
 .screen {
   width: 85%;
   height: 75vh;
+  overflow-y: hidden;
   background-color: #f8f5e6;
   border-radius: 60px;
-  overflow-y: scroll;
-  padding-top: 90px;
+  padding-top: 83px;
   padding-bottom: 50px;
   position: relative;
+}
+
+.screen::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-screen {
+  padding: 0px var(--horizontal-space);
+  overflow-y: scroll;
+  max-height: 70vh;
+}
+
+.scroll-screen::-webkit-scrollbar {
+  display: none;
 }

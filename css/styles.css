@@ -9,10 +9,12 @@
 @import "components/screen.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/market.css";
 
 body {
   font-family: "Quicksand", sans-serif;

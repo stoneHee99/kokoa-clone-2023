@@ -14,6 +14,9 @@
 
 .user-compnent__column:last-child {
   color: #8b8065;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .user-component__avatar {
@@ -21,6 +24,7 @@
   height: 70px;
   border-radius: 30px;
   margin-right: 20px;
+  margin-top: 10px;
 }
 
 .user-component__avatar--xl {
@@ -49,4 +53,9 @@
   margin-top: 6px;
   font-size: 14px;
   color: #8b8065;
+}
+
+.user-component__time {
+  margin-bottom: 5px;
+  display: block;
 }

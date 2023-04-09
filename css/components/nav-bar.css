@@ -1,3 +1,14 @@
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 .nav {
   position: absolute;
   bottom: 0;
@@ -18,20 +29,20 @@
   position: relative;
 }
 
+.nav__link__selected-image {
+  animation: bounce 1.5s infinite;
+}
+
 .nav__notification {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #5acbc3;
-  border-style: solid;
-  border-width: 4px;
-  border-color: #f8f5e6;
-  color: white;
-  font-weight: 600;
   position: absolute;
   left: 30px;
   bottom: 35px;
+}
+
+.nav__notification__selected {
+  position: absolute;
+  left: 30px;
+  bottom: 35px;
+  animation: bounce 1.5s infinite;
+  z-index: 1;
 }

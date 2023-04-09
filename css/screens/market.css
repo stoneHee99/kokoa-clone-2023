@@ -1,0 +1,121 @@
+.market-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
+}
+
+.market-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #8b8065;
+}
+
+.market-icons__icon span {
+  margin-top: 15px;
+}
+
+.recommended-goods {
+  margin: 25px 0;
+  padding: 25px 0;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommended-goods span {
+  margin: 80px 0px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  color: #756b5a;
+}
+
+.recommended-goods__title {
+  font-size: 14px;
+  color: #8b8065;
+}
+
+.open-shop__header {
+  display: flex;
+  justify-content: space-between;
+  color: #756b5a;
+  margin-bottom: 20px;
+}
+
+.open-chat__header span {
+  color: #8b8065;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__title {
+  font-weight: 600;
+  color: #756b5a;
+  margin-bottom: 7px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  color: #8b8065;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.open-post__members img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-post__member-count {
+  color: #8b8065;
+  font-size: 14px;
+}
+
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: #8b8065;
+}
+
+.open-post__member-status {
+  color: tomato;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.open-post__like-count {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 11px;
+}
+
+.open-post__like-count span {
+  margin-left: 3px;
+}

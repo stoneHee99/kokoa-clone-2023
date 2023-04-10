@@ -8,6 +8,7 @@
   border-bottom: 2px solid #dedacf;
   box-sizing: border-box;
   margin-bottom: 15px;
+  background-color: #f8f5e6;
 }
 
 .screen-header__title {
@@ -34,4 +35,17 @@
   display: inline-block;
   position: relative;
   top: -15px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
 }

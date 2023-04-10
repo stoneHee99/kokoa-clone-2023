@@ -53,6 +53,21 @@
   margin-top: 6px;
   font-size: 14px;
   color: #8b8065;
+  display: inline-block;
+}
+
+.user-component__error {
+  width: 13px;
+  height: 13px;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: tomato;
+  color: tomato;
+  text-align: center;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 13px;
 }
 
 .user-component__time {

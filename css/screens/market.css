@@ -1,21 +1,3 @@
-.market-icons {
-  display: flex;
-  justify-content: space-between;
-  padding: 25px 0px;
-}
-
-.market-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  color: #8b8065;
-}
-
-.market-icons__icon span {
-  margin-top: 15px;
-}
-
 .recommended-goods {
   margin: 25px 0;
   padding: 25px 0;
@@ -51,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .open-post__title {
@@ -97,6 +80,15 @@
   position: relative;
 }
 
+@keyframes turnColorPink {
+  from {
+    color: white;
+  }
+  to {
+    color: #ff758c;
+  }
+}
+
 .open-post__photo img {
   width: 80px;
   height: 80px;
@@ -118,4 +110,8 @@
 
 .open-post__like-count span {
   margin-left: 3px;
+}
+
+.open-post__like-count:hover {
+  animation: turnColorPink 0.3s linear forwards;
 }
